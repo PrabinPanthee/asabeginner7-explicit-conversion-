@@ -7,7 +7,7 @@ class Program
         //cannot implicitly convert float to int
         //coz fractional part will be lost.Hence loss of data 
         //as float is bigger data type there is the possibility of
-        //overdflow exception int i = f;
+        //overflow exception int i = f;
         //use explicit conversion using cast () operator
         int i = (int)f;
         //or use convert class 
